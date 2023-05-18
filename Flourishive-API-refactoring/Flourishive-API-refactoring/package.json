@@ -1,0 +1,45 @@
+{
+  "name": "Flourishive",
+  "version": "1.0.0",
+  "description": "A starter for internal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint --fix src",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sumeetbalwade/Flourishive-Backend.git"
+  },
+  "license": "",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "helmet": "^5.1.1",
+    "jsonwebtoken": "^9.0.0",
+    "mariadb": "^3.0.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "otp-generator": "^4.0.1",
+    "path": "^0.12.7",
+    "sequelize": "^6.27.0",
+    "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.5.2",
+    "supertest": "^6.2.4"
+  }
+}
